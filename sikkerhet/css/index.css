@@ -1,0 +1,35 @@
+header {
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+article {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#tekst {
+    border: solid black 2px;
+    padding: 10px;
+}
+
+
+#bilde {
+    
+    position: absolute;
+    width: 97px;
+    height: 150px;
+    left: -150px;
+    background-image: url(../bilder/tyv.png);
+    background-position-x: 8px;
+    animation: sneak 8s infinite linear,
+    run 0.5s infinite steps(6);
+}
+
+@keyframes sneak {
+100% {left: 110%;}
+}
+
+@keyframes run {
+    100% {background-position-x: 600px;}
+}
