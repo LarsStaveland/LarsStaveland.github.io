@@ -1,0 +1,90 @@
+/* body{
+    background-color: whitesmoke;
+    background-image: url(../Julekalender/bilder/julekalender.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#grad {
+    position: absolute;
+    top: 30px;
+    left: 325px;
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-size: 180%;
+    font-family: serif;
+    background-image: linear-gradient(to right, green, red, green);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    border: solid green lightgreen 14px;
+    border-style: dashed;
+    border-radius: 20px;
+}
+
+#kalender {
+    background-image: url(../Julekalender/bilder/julekalender.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 900px;
+    height: 600px;
+    top: 150px;
+    left: 225px;
+    border: solid black 4px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+
+.luke {
+    border: solid black 2px;
+    margin: 10px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 260%;
+    height: 100%;
+}
+*/
+#ytre {
+    background-image: url(../Julekalender/bilder/jul.jpg);
+    background-position: center;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#luker {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+align-items: center;
+vertical-align: center;
+width: 60vw;
+height: 600px;
+margin-left: 26vw;
+margin-top: 10vh;
+}
+
+.luke {
+    color: white;
+text-align: center;
+text-shadow: 3px 3px 3px black;
+font-size: 1.2em;  
+border: solid gray 1px;
+width: 60px;
+height: 25px;
+background-color: white;
+}
+#vis {
+    width: 500px;
+    height: 500px;
+    border: solid red 1px;
+    display: none;
+position: absolute;
+top: 10em;
+left: 10em;
+}
+
