@@ -1,0 +1,111 @@
+#astro {
+   
+    background-image: url(../bilder/astro.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 477px;
+    
+}
+
+#fjes {
+    position: relative;
+    left: 75px;
+    top:51px;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    height: 200px;
+    width: 688px;
+}
+
+#fjes2 {
+    
+        position: relative;
+        left: 110px;
+        top:-80px;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        height: 200px;
+        width: 688px;
+
+}
+#fjes3 {
+    position: relative;
+    
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    height: 200px;
+    width: 688px;
+    top: -240px;
+    left: 60px;
+}
+
+.fjes:hover {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: solid yellow 1px;
+}
+
+.fjes:nth-child(n + 11) {
+   left: 13px;
+}
+
+.fjes:nth-child(n + 21) {
+    left: -24px;
+    top: -28px;
+ }
+
+ .fjes:nth-child(n + 24) {
+    left: -1px;
+    top: -13px;
+ }
+
+ .kropp {
+   
+     position: relative;
+     margin-top: calc(64px - 40px);
+width: 64px;
+height: 40px;
+border:solid gray;
+background-color: gold;
+border-radius: 3px;
+ }
+ .kropp::before {
+    
+     position: absolute;
+     content: "";
+     display: block;
+     width: 50px;
+     height: calc(60px - 40px);
+     
+     border: solid goldenrod 5px;
+     border-bottom: none;
+     border-top-left-radius: 50%;
+     border-top-right-radius: 50%;
+     top: -25px;
+     left: 2px;
+ }
+ .kropp::after {
+    
+    position: absolute;
+    content: "";
+    display: block;
+    width: 5px;
+    height: 12;
+    
+    border: solid darkolivegreen 5px;
+    border-radius: 3px;
+   
+    top: 15px;
+    left: 24px;
+}
+ .flag {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+.flagg :after, :before {
+    box-sizing: border-box;
+}

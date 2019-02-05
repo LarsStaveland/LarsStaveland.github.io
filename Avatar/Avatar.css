@@ -1,0 +1,58 @@
+#avatar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#avatar div {
+    width: 136px;
+    height: 140px;
+    background-position-y: 14px;
+}
+
+#avatar div:nth-last-of-type(1) {
+    background-image: url(bilder/aa00.png);
+}
+#avatar div:nth-last-of-type(2){
+    background-image: url(bilder/aa01.png)
+}
+#avatar div:nth-last-of-type(3){
+    background-image: url(bilder/aa02.png);
+}
+#avatar div:nth-last-of-type(4){
+    background-image: url(bilder/aa03.png);
+}
+#avatar div:nth-last-of-type(5){
+    background-image: url(bilder/aa04.png);
+}
+#avatar div:nth-last-of-type(6){
+    background-image: url(bilder/aa05.png);
+}                           
+#avatar div:nth-last-of-type(7){
+    background-image: url(bilder/aa06.png);
+}
+#avatar div:nth-last-of-type(8){
+    background-image: url(bilder/aa07.png);
+}
+#avatar div:nth-last-of-type(9){
+    background-image: url(bilder/aa08.png);
+}
+#avatar div:nth-last-of-type(10){
+    background-image: url(bilder/aa09.png);
+}
+#avatar div:nth-last-of-type(11){
+    background-image: url(bilder/aa10.png);
+}
+#avatar div:nth-last-of-type(12){
+    background-image: url(bilder/aa11.png);
+}
+#avatar div:nth-last-of-type(13){
+    background-image: url(bilder/aa12.png);
+}
+#avatar div:nth-last-of-type(14){
+    background-image: url(bilder/aa13.png);
+}
+#avatar div:nth-last-of-type(15){
+    background-image: url(bilder/aa14.png);
+}
+#avatar div:nth-last-of-type(16){
+    background-image: url(bilder/aa15.png);
+}

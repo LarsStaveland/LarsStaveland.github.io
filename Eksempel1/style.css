@@ -1,0 +1,87 @@
+body {
+    background-color: whitesmoke;
+}
+#head {
+position: fixed;
+font-size: 230%;
+top: 17px;
+left: 500px;
+right: 500px;
+
+border: solid black 4x;
+border-radius: 20px;
+border-style: inset;
+box-shadow: 5px 5px 30px black;
+
+width: 500px;
+text-align: center;
+height: 250px;
+color:white;
+text-shadow: 3px 3px 100px blue;
+
+background-image: linear-gradient(90deg, red, yellow, red)
+}
+
+main {
+    position: relative;
+    top: 250px;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+right: 10px;
+
+
+    color: black;
+text-align: right;
+font-size: 30px;
+padding: 5px;
+}
+
+p {
+    color: white;
+}
+img {
+    width: 100px;
+}
+
+@keyframes rulle {
+    100% {left: 95%; transform: rotate(10turn)}
+}
+
+#achrome {
+    position: relative;
+}
+
+#chrome {
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    transform: rotate(0turn);
+animation: rulle 3s ease-in-out infinite alternate;
+}
+
+#asafari {
+position: relative;
+}
+
+#safari {
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    transform: rotate(0turn);
+animation: rulle 3s ease-in-out infinite alternate;
+}
+
+#afirefox {
+    position: relative;
+    }
+
+#firefox {
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    transform: rotate(0turn);
+animation: rulle 3s ease-in-out infinite alternate;
+}

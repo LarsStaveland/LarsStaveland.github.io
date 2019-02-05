@@ -1,0 +1,10 @@
+progress {
+    height: 50px;
+    width: 300px;
+}
+
+video {
+   position: absolute;
+   top: 150px;
+   left: 500px;
+}

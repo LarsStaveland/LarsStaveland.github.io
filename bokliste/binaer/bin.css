@@ -1,0 +1,23 @@
+#register {
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    width: 250px;
+   
+}
+
+#register > div {
+    width: 16px;
+    height: 20px;
+    background-color: aliceblue;
+    border: solid grey 1px;
+    position: relative;
+}
+#registrer > div:after{
+    position: absolute;
+   content: attr(data-tall);
+ top:-18px;
+ left: -2px;
+ width: 16px;
+height: 16px;
+}

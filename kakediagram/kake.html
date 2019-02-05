@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="kake.js"></script>
+    <link rel="stylesheet" href="kake.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="kaker">
+<pie-chart heading="Frokost" id="frokost" width=400></pie-chart>
+<pie-chart heading="Middag" id="middag" width=400></pie-chart>
+<pie-chart heading="Kvelds" id="kvelds" width=400></pie-chart>
+</div>
+    <script>
+       // let pie= document.querySelector("pie-chart");
+       let frokost = document.getElementById("frokost");
+frokost.init([
+    {label:"potet", color: "grey", value:100},
+    {label:"agurk", color: "green", value:100},
+    {label:"svin", color: "brown", value:100},
+    {label:"lam", color: "white", value:100},
+    {label:"kjøtt", color: "darkred", value:100},
+    {label:"erter", color: "green", value:100},
+    {label:"ananaspizza", color: "gold", value:100},
+   
+]);
+let middag = document.getElementById("middag");
+middag.init([
+    {label:"potet", color: "grey", value:100},
+    {label:"agurk", color: "green", value:100},
+    {label:"svin", color: "brown", value:100},
+    {label:"lam", color: "white", value:100},
+    {label:"kjøtt", color: "darkred", value:100},
+    {label:"erter", color: "green", value:100},
+    {label:"ananaspizza", color: "gold", value:100},
+   
+]);
+let kvelds = document.getElementById("kvelds");
+kvelds.init([
+    {label:"potet", color: "grey", value:100},
+    {label:"agurk", color: "green", value:100},
+    {label:"svin", color: "brown", value:100},
+    {label:"lam", color: "white", value:100},
+    {label:"kjøtt", color: "darkred", value:100},
+    {label:"erter", color: "green", value:100},
+    {label:"ananaspizza", color: "gold", value:100},
+   
+]);
+    </script>
+</body>
+</html>

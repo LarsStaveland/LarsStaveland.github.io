@@ -1,0 +1,53 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+span {
+    text-shadow: 10px 10px 100px blue;
+    color: black;
+}
+
+#head {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    text-align: center;
+}
+
+main > div {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 30px;
+    background-color: rgb(64, 93, 221);
+    background-position: center;
+    background-size: cover;
+    Border: solid red 1px;
+    border-radius: 100%;
+    box-shadow: 8px 8px 8px black;
+    filter: invert(9);
+}
+
+#b1 {
+    background-image: url(wolf.jpg);
+}
+#b2 {
+    background-image: url(fox.jpg);
+}
+#b3 {
+    background-image: url(reindeer.jpg);
+}
+#b4 {
+    background-image: url(koala.jpg);
+}
+#b5 {
+    background-image: url(tiger.jpg);
+}
+#b6 {
+    background-image: url(eagle.jpg);
+}
+
+h1 {
+    text-align: center;
+    
+}
